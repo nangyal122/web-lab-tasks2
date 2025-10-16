@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form - Nangyal Khan</title>
+</head>
+<body>
+
+    <h1 align="center">Student Registration Form</h1>
+    <hr>
+
+    <form action="#" method="post" align="center">
+
+        <!-- Name -->
+        <label for="name"><strong>Full Name:</strong></label>
+        <input type="text" id="name" name="name" value="Nangyal Khan" required>
+        <br><br>
+
+        <!-- Registration Number -->
+        <label for="reg"><strong>Registration No:</strong></label>
+        <input type="text" id="reg" name="reg" value="22PWCSE1234" required>
+        <br><br>
+
+        <!-- Email -->
+        <label for="email"><strong>Email:</strong></label>
+        <input type="email" id="email" name="email" value="nangyalkhan@uetpeshawar.edu.pk" required>
+        <br><br>
+
+        <!-- Password -->
+        <label for="password"><strong>Password:</strong></label>
+        <input type="password" id="password" name="password" placeholder="Create password" required>
+        <br><br>
+
+        <!-- Course Selection -->
+        <label for="course"><strong>Select Course:</strong></label>
+        <select id="course" name="course" required>
+            <option value="">--Select Course--</option>
+            <option value="cs" selected>Computer Science</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="ee">Electrical Engineering</option>
+            <option value="se">Software Engineering</option>
+            <option value="me">Mechanical Engineering</option>
+            <option value="ce">Civil Engineering</option>
+        </select>
+        <br><br>
+
+        <!-- Semester Radio Buttons -->
+        <strong>Semester:</strong><br>
+        <input type="radio" id="3rd" name="semester" value="3rd">
+        <label for="3rd">3rd Semester</label><br>
+
+        <input type="radio" id="4th" name="semester" value="4th" checked>
+        <label for="4th">4th Semester</label><br>
+
+        <input type="radio" id="5th" name="semester" value="5th">
+        <label for="5th">5th Semester</label>
+        <br><br>
+
+        <!-- Terms and Conditions -->
+        <input type="checkbox" id="terms" name="terms" required>
+        <label for="terms">I agree to the <a href="#">terms and conditions</a></label>
+        <br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <hr>
+    <p align="center">
+        © 2025 Nangyal Khan | University of Engineering & Technology Peshawar
+    </p>
+
+</body>
+</html>
